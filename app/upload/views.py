@@ -13,3 +13,4 @@ def image_upload(request):
             "image_url": image_url
         })
     return render(request, "upload.html")
+# This is a new line that ends the file.

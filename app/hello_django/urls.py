@@ -12,3 +12,4 @@ urlpatterns = [
 
 if bool(settings.DEBUG):
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+# This is a new line that ends the file.
